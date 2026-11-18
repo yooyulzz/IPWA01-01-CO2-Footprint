@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr"> 
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO₂-Footprint</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+
+    <h1 class="mb-0">
+        <span class="logo-icon">◈</span> CO₂-Footprint
+    </h1>
+
+    <nav class="nav header-nav">
+        <a class="nav-link" href="#ueberblick">Startseite</a>
+        <a class="nav-link" href="#co2-daten">CO₂-Daten</a>
+        <a class="nav-link" href="#ueber-uns">Über uns</a>
+    </nav>
+
+        </header>
+
+         <main>
+
+            <h2 id="ueberblick">CO₂-Emissionen weltweit</h2>
+            <p>
+                Auf dieser Webseite findest du Informationen zu den
+                CO₂-Emissionen verschiedener Länder und Unternehmen.
+            
+            </p>
+            
+            <div class="seiten-layout row g-4">
+
+ <aside class="col-12 col-md-3">
+    <h3>Auf dieser Seite</h3>
+    <nav>
+        <a href="#ueberblick">Überblick</a>
+        <a href="#co2-daten">CO₂-Daten</a>
+        <a href="#ueber-uns">Über uns</a>
+    </nav>
+</aside>
+
+<div class="hauptinhalt col-12 col-md-9"> 
+
+<section id="co2-daten">
+    <h2>CO₂-Daten</h2>
+    <p>Die folgenden Werte sind fiktive Beispieldaten.</p>
+
+<div class="filter-bereich">
+   <div>
+    <label for="land-filter">Nach Land filtern:</label>
+    <input type="text" class="form-control" id="land-filter" placeholder="Land eingeben">
+</div>
+
+<div>
+    <label for="unternehmen-filter">Nach Unternehmen filtern:</label>
+    <input type="text" class="form-control" id="unternehmen-filter" placeholder="Unternehmen eingeben">
+</div>
+
+</div>
+
+<div class="tabellen-container table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Land</th>
+                <th>Unternehmen</th>
+                
+<th>
+    CO₂-Emissionen (Mio. Tonnen)
+    <button class="btn btn-success" id="sort-emissionen">Sortieren</button>
+</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Deutschland</td>
+                <td>Beispiel Energie AG</td>
+                <td>120</td>
+            </tr>
+
+            <tr>
+                <td>Frankreich</td>
+                <td>Demo Industrie GmbH</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>Spanien</td>
+                <td>Green Future SA</td>
+                <td>60</td>
+            </tr>
+
+            <tr>
+                <td>Deutschland</td>
+                <td>Klima Technik GmbH</td>
+                <td>45</td>
+            </tr>
+
+        </tbody>
+    </table>
+    </div>
+</section>
+
+<section id="ueber-uns">
+    <h2>Über uns</h2>
+    <p>Diese Webseite wurde erstellt, 
+        um beispielhaft CO₂-Emissionen verschiedener Länder und 
+        Unternehmen übersichtlich darzustellen. 
+        Die verwendeten Daten sind fiktive Beispieldaten.</p>
+</section>
+
+    </div>
+</div>
+        
+</main>
+
+          
+<footer>
+    <p> © 2026 CO₂-Footprint |
+        <a href="#impressum"> Impressum </a> | 
+        <a href="#datenschutz"> Datenschutz </a>
+     </p>
+       
+
+    <section id="impressum">
+        <h2>Impressum</h2>
+    <p> Die Website CO₂-Footprint wurde im Rahmen einer
+        Fallstudie an der IU Internationalen Hochschule erstellt.
+        Sie dient ausschließlich Studien- und Demonstrationszwecken. 
+        Die dargestellten Emissionsdaten sind fiktiv. 
+    </p>
+
+    </section>
+
+    <section id="datenschutz">
+        <h2>Datenschutz</h2>
+    <p>Diese Website dient ausschließlich Studien- und
+        Demonstrationszwecken. Die eingegebenen Suchbegriffe
+        werden ausschließlich zur Filterung der CO₂-Tabelle
+        im Browser verwendet. Eine dauerhafte Speicherung
+        der Suchbegriffe durch die Website erfolgt nicht.
+    </p>
+
+    </section>
+
+</footer>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+    </body>
+    
+</html>
