@@ -45,4 +45,14 @@ sortButton.addEventListener("click", function () {
 
     aufsteigend = !aufsteigend;
 });
+const ltrButton = document.getElementById("ltr-button");
+const rtlButton = document.getElementById("rtl-button");
+
+ltrButton.addEventListener("click", function () {
+    document.documentElement.dir = "ltr";
+});
+
+rtlButton.addEventListener("click", function () {
+    document.documentElement.dir = "rtl";
+});
 
