@@ -123,3 +123,15 @@ tbody tr:hover {
 .header-nav .nav-link:hover {
     color: #a8d96c;
 }
+.sprachrichtung {
+    display: flex;
+    gap: 8px;
+}
+
+.sprachrichtung button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a8d96c;
+}
